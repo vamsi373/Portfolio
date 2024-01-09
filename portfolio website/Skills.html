@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        /* header CSS */
+        nav {
+            background-color: chocolate;
+            overflow: hidden;
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        li {
+            flex: 1;
+
+        }
+
+        .nav_item {
+            display: block;
+            padding: 14px;
+            text-decoration: none;
+            font-size: large;
+            margin-left: 105px;
+            margin-top: 5px;
+        }
+
+
+
+        a {
+            text-decoration: none;
+
+        }
+
+        /* header CSS End */
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+
+            display: flex;
+            padding: 10px;
+            justify-content: center;
+
+        }
+
+
+        .image-container {
+            position: relative;
+
+            width: 250px;
+            height: 225px;
+
+
+            overflow: hidden;
+            left: 20px;
+            top: 20px;
+            padding: 20px;
+            margin: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease;
+        }
+
+        .image-text {
+            position: absolute;
+            bottom: 0;
+            margin: 2px;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            /* opacity: 0; */
+            transform: translateY(50%);
+            transition: opacity 0.3s ease;
+        }
+
+        .image-container:hover img {
+            transform: scale(1.1);
+        }
+
+        .image-container:hover .image-text {
+            transform: translateY(0%);
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header part Start -->
+    <header class="header" id="header">
+        <nav>
+
+            <ul>
+
+                <li><a href="./index.html" class="nav_item">Home</a></li>
+                <li><a href="./About.html" class="nav_item">About</a></li>
+                <li><a href="./Skills.html" class="nav_item">Skills</a></li>
+                <li><a href="./Projects.html" class="nav_item">Projects</a></li>
+                <li><a href="./contact.html" class="nav_item">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header Part End -->
+
+    <!-- Container 1 -->
+
+    <div class="container">
+        <div class="image-container">
+            <img src="./Images/JavaScript-logo.png" alt="Image">
+            <div class="image-text">
+                &nbsp;
+                <h2>JavaScript</h2>
+                &nbsp;
+                <p>High-level programming language commonly used for creating dynamic and interactive web content.</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./Images/html.jpeg" alt="Image">
+            <div class="image-text">
+                &nbsp;
+                <h2>HTML</h2>
+                &nbsp;
+                <p>Markup language for structuring and presenting content on the web.</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./Images/CSS-Logo.jpg" alt="Image">
+            <div class="image-text">
+                &nbsp;
+                <h2>CSS</h2>
+                &nbsp;
+                <p>Style sheet language for designing and formatting the visual presentation of HTML and other
+                    structured documents on the web.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- container 1 End -->
+
+    <!-- Container 2 -->
+
+    <div class="container">
+        <div class="image-container">
+            <img src="./Images/bootstrap.jpg" alt="Image">
+            <div class="image-text">
+                &nbsp;
+                <h2>BootStrap</h2>
+                &nbsp;
+                <p>Front-end framework that simplifies and speeds up web development by providing pre-designed,
+                    responsive components and styles.</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./Images/React.jpeg" alt="Image">
+            <div class="image-text">
+                &nbsp;
+                <h2>React JS</h2>
+                &nbsp;
+                <p>JavaScript library for building user interfaces, particularly single-page applications, using a
+                    component-based architecture for efficient and dynamic UI updates.</p>
+            </div>
+        </div>
+       
+
+    </div>
+
+    <!-- Container 2 End -->
+
+    <!-- Container 3 -->
+
+    <div class="container">
+       
+        <div class="image-container">
+            <img src="./Images/git.png" alt="Image">
+            <div class="image-text">
+                &nbsp;
+                <h2>GitHub</h2>
+                &nbsp;
+                <p>Web-based platform for version control and collaboration, allowing developers to host and manage code
+                    repositories, track changes, collaborate on projects, and manage software development workflows.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Container 3 End -->
+</body>
+
+</html>

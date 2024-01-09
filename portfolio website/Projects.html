@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        /* header CSS */
+        nav {
+            background-color: chocolate;
+            overflow: hidden;
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        li {
+            flex: 1;
+
+        }
+
+        .nav_item {
+            display: block;
+            padding: 14px;
+            text-decoration: none;
+            font-size: large;
+            margin-left: 105px;
+            margin-top: 5px;
+        }
+
+
+
+        a {
+            text-decoration: none;
+
+        }
+
+        /* header CSS End */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .project-card {
+            width: 300px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-name {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .project-skills {
+            margin-bottom: 10px;
+        }
+
+        .project-skills img {
+            max-width: 30px;
+            margin-right: 5px;
+            transition: transform 0.3s;
+            background-size: cover;
+        }
+
+        .project-skills img:hover {
+            transform: scale(2);
+        }
+
+        .project-description {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .github-link {
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .github-link img {
+            max-width: 30px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+
+    <!-- Header part Start -->
+    <header class="header" id="header">
+        <nav>
+
+            <ul>
+
+                <li><a href="./index.html" class="nav_item">Home</a></li>
+                <li><a href="./About.html" class="nav_item">About</a></li>
+                <li><a href="./Skills.html" class="nav_item">Skills</a></li>
+                <li><a href="./Projects.html" class="nav_item">Projects</a></li>
+                <li><a href="./contact.html" class="nav_item">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header Part End -->
+
+    <!-- Container 1 -->
+    <div class="projects-container">
+        <div class="project-card">
+            <div class="project-name"><b>A portfolio website</b></div>
+            <div class="project-skills">
+                <p>
+                <h5>Skills Used:</h5>
+                <img src="./Images/html.jpeg" alt="HTML">
+                <img src="./Images/CSS-Logo.jpg" alt="CSS">
+                <img src="./Images/JavaScript-logo.png" alt="JavaScript"></p>
+            </div>
+            <div class="project-description">
+                <b>Description:</b>
+                Create an engaging portfolio website using HTML, CSS, and JavaScript to showcase my skills and
+                accomplishments effectively. Crafted with a user-centric design, this site offers a seamless browsing
+                experience, allowing visitors to explore my projects and expertise effortlessly. Through a harmonious
+                blend of creative layouts, responsive design, and interactive elements, my portfolio comes to life,
+                leaving a lasting impression on potential clients or employers. With a focus on simplicity and intuitive
+                navigation, this website reflects my professional journey and personality, making it an essential tool
+                for leaving a remarkable digital footprint.
+            </div>
+            <div class="github-link">
+                <a href="http://github.com/vamsi373" target="_blank">
+                    <img src="./Images/git.png" alt="GitHub">
+                    GitHub Repository
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-name"><b>Learning Management System (LMS) with React</b></div>
+            <div class="project-skills">
+                <p>
+                <h5>Skills Used:</h5>
+                <img src="./Images/React.jpeg" width="90px" alt="React">
+
+            </div>
+            <div class="project-description">
+                <b>Description:</b>
+                In the React-based Learning Management System (LMS) application, the initial landing page offers a
+                seamless user experience, where first-time visitors are prompted to complete a swift registration
+                process. Upon successful registration, users gain access to the main dashboard, serving as a gateway to
+                a world of educational opportunities. The dashboard elegantly presents an array of available courses,
+                each accompanied by an inviting "Watch" button. Upon clicking this button, users are seamlessly ushered
+                into a realm of knowledge, as the application showcases captivating demo videos that provide a
+                tantalizing glimpse into the content and quality of the selected course. This React-powered LMS
+                harmonizes user-friendly navigation with immersive content, fostering a dynamic environment for
+                discovery and learning.
+            </div>
+            <div class="github-link">
+                <a href="http://github.com/vamsi373" target="_blank">
+                    <img src="./Images/git.png" alt="GitHub">
+                    GitHub Repository
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+         /* header CSS */
+         nav {
+            background-color: chocolate;
+            overflow: hidden;
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        li {
+            flex: 1;
+
+        }
+
+        .nav_item {
+            display: block;
+            padding: 14px;
+            text-decoration: none;
+            font-size: large;
+            margin-left: 105px;
+            margin-top: 5px;
+        }
+
+
+        a {
+            text-decoration: none;
+
+        }
+
+        /* header CSS End */
+        .about {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 80%;
+            height: 350px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .image {
+            flex: 1;
+            padding: 20px;
+            position: relative;
+        }
+
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content {
+            flex: 2;
+            padding: 20px;
+        }
+
+
+        .line {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: black;
+        }
+
+        .line-left {
+            left: 19px;
+            transform: translateX(-50%);
+        }
+
+        .line-right {
+            right: 670px;
+            transform: translateX(50%);
+        }
+    </style>
+</head>
+
+<body>
+
+     <!-- Header part Start -->
+     <header class="header" id="header">
+        <nav>
+            
+            <ul>
+                <li><a href="./index.html" class="nav_item">Home</a></li>
+                <li><a href="./About.html" class="nav_item">About</a></li>
+                <li><a href="./Skills.html" class="nav_item">Skills</a></li>
+                <li><a href="./Projects.html" class="nav_item">Projects</a></li>
+                <li><a href="./contact.html" class="nav_item">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header Part End -->
+    <section class="about">
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="image">
+            <img src="./Images/vamsi.jpeg" alt="">
+
+        </div>
+
+        <div class="line line-right"></div>
+        <div class="content">
+            <p>I am GUDI VAMSISRIRIAM, a proactive and skilled full stack developer who recently completed an enriching internship. My proficiency encompasses a wide range of essential technologies, including HTML, CSS, JavaScript, ReactJS,ReactNative and Bootstrap for creating dynamic and responsive web interfaces. Moreover, I possess a strong foundation in Java and Spring Boot, enabling me to develop robust backend systems and RESTful APIs. With a demonstrated aptitude for both front-end and back-end development, I am poised to contribute my expertise in creating seamless and user-centric applications. My commitment to innovation, coupled with my adaptable problem-solving approach, equips me to excel in delivering impactful digital solutions.</p>
+
+        </div>
+
+    </div>
+    </section>
+
+</body>
+</html>
